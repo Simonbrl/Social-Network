@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" ">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="./src/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Social Network</title>
+</head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div class="left-side">
+                    <div class="user-info">
+                        <div class="user-picture">
+                            <img src="./src/img/user/100x100/didier_petou.jpg">
+                        </div>
+                        <div class="user-name">
+                            <strong>Didier Pétou</strong>
+                            <span>@didier_petou</span>
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <ul>
+                            <li class="active">
+                                <div class="navigation-item active">
+                                    <i class="fas fa-home"></i>
+                                    <a href="#" class="nav-link active">Home</a>
+                                </div>
+                            </li>
+                            <li id="nav-notification">
+                                <div class="navigation-item">
+                                    <i class="fas fa-bell"></i>
+                                    <a href="#" class="nav-link">Notifications</a>
+                                    <span></span>
+                                </div>
+                            </li>
+                            <li id="nav-message">
+                                <div class="navigation-item">
+                                    <i class="fas fa-comments"></i>
+                                    <a href="#" class="nav-link">Messages</a>
+                                    <span></span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="navigation-item">
+                                    <i class="fas fa-user-friends"></i>
+                                    <a href="#" class="nav-link">Friends</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="navigation-item">
+                                    <i class="fas fa-users"></i>
+                                    <a href="#" class="nav-link">Groups</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="navigation-item">
+                                    <i class="fas fa-flag"></i>
+                                    <a href="#" class="nav-link">Pages</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="navigation-item">
+                                    <i class="fas fa-cog"></i>
+                                    <a href="#" class="nav-link">Settings</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="navigation-item">
+                                    <i class="fas fa-sign-out-alt"></i>
+                                <a href="#">Log Out</a>
+                            </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="notification">
+                        <div class="title">
+                            <strong>Notifications</strong>
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <hr>
+                        <ul></ul>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="searchbar">
+                        <input type="text" placeholder="Search...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="story">
+                        <div class="cards">
+                            <div class="card">
+                                <div class="friend-picture-story">
+                                    <img src="./src/img/user/didier_petou.jpg">
+                                    <span></span>
+                                </div>
+                                <button class="btn-add"><i class="fas fa-plus"></i></button>
+                                <span class="add-story">Add Story</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feed">
+                        <div class="post-message">
+                            <img src="./src/img/user/50x50/didier_petou.jpg">
+                            <input type="text" placeholder="How are you, Didier ?">
+                            <button class="btn-post">Post it !</button>
+                        </div>
+                        <div class="feed-post"></div>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <div class="friend">
+                        <strong>Friends</strong>
+                        <hr>
+                        <ul></ul>
+                    </div>
+                    <div class="message">
+                        <div class="title">
+                            <strong>Messages</strong>
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <hr>
+                        <ul></ul>
+                    </div>
+                    <div class="conversation">
+                        <div class="friend-name-conversation">
+                            <span>Robert Pichon</span>
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="conversation-content">
+                            <div class="conversation-message">
+                                <div class="conversation-message-item">
+                                    <div class="message-from-friend">Fugit voluptatum fuga asperiores labore soluta laborum placeat inventore quas.</div>
+                                </div>
+                                <div class="conversation-message-item">
+                                    <div class="message-to-friend">laborum placeat inventore quas.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-message">
+                            <div class="input-control">
+                                <input type="text" placeholder="Write a message...">
+                                <div class="message-control">
+                                    <i class="fas fa-plus-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./src/script/script.js"></script>
+    </body>
+</html>
