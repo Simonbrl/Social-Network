@@ -1,0 +1,11 @@
+@import './User';
+@import './Navigation';
+
+.left-side{
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}

@@ -1,0 +1,30 @@
+*, 
+*::before, 
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: map-get($colors, "dark");
+    background-color: whitesmoke;
+    height: 100vh;
+    // padding: 2rem;
+    overflow: hidden;
+}
+
+ol, ul {list-style: none;}
+
+input, textarea, button{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+a{
+    color: map-get($colors, "dark");
+    outline: none;
+	text-decoration: none;
+}

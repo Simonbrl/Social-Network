@@ -1,0 +1,28 @@
+.navigation{
+    background: white;
+    border-radius: 15px;
+    .navigation-item{
+        color : map-get($colors, "dark");
+        font-size: 17px;
+        &:not(:last-child){border-bottom: 1px solid whitesmoke;}
+        &:hover{background: rgb(240, 240, 240);}
+        &.active{
+            color : map-get($colors, "blue");
+            font-weight: bold;
+            .nav-link{color : map-get($colors, "blue");}
+        }
+        .nav-link{
+            display: flex;
+            align-items: center;
+            column-gap: .5rem;
+            padding: .5rem 1rem;
+            width: 100%;
+            i{
+                font-size: 20px;
+                width: 30px;
+                text-align: center;
+            }
+        }
+    }
+    
+}

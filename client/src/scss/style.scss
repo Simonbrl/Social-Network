@@ -1,0 +1,26 @@
+@import './variables';
+@import './mixins';
+@import './placeholders';
+
+@import './reset';
+@import './root';
+@import './panels';
+@import './lists';
+
+@import './components/LeftSide';
+@import './components/Main';
+@import './components/RightSide';
+
+#root{
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    // column-gap: 2rem;
+    height: 100%;
+    width: 100%;
+}

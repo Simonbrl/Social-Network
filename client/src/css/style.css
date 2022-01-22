@@ -1,0 +1,153 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #535151;
+  background-color: whitesmoke;
+  height: 100vh;
+  overflow: hidden;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+input, textarea, button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+a {
+  color: #535151;
+  outline: none;
+  text-decoration: none;
+}
+
+:root {
+  --blue:#6270a7;
+  --magenta:#EC6EA5;
+  --yellow:#FFC822;
+  --red:#F43838;
+  --green:#39CE57;
+  --light:#E5E5E5;
+  --dark:#535151;
+  --silver:#adadad;
+}
+
+.panel {
+  background-color: white;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.list-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info {
+  background-color: white;
+  border-radius: 15px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 1rem;
+}
+.user-info img {
+  display: block;
+  border-radius: 15px;
+  border: 2px solid #6270a7;
+  width: 50px;
+  height: 50px;
+}
+.user-info .user-name {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.user-info .user-name strong {
+  color: #535151;
+  font-size: 17px;
+}
+.user-info .user-name span {
+  font-size: 13px;
+  color: #adadad;
+}
+
+.navigation {
+  background: white;
+  border-radius: 15px;
+}
+.navigation .navigation-item {
+  color: #535151;
+  font-size: 17px;
+}
+.navigation .navigation-item:not(:last-child) {
+  border-bottom: 1px solid whitesmoke;
+}
+.navigation .navigation-item:hover {
+  background: #f0f0f0;
+}
+.navigation .navigation-item.active {
+  color: #6270a7;
+  font-weight: bold;
+}
+.navigation .navigation-item.active .nav-link {
+  color: #6270a7;
+}
+.navigation .navigation-item .nav-link {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+.navigation .navigation-item .nav-link i {
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+}
+
+.left-side {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.right-side {
+  position: sticky;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  height: 100vh;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  height: 100%;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
